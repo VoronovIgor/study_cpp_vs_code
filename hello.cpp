@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
-    std::cout << "Hello World!";
+    int myVarible {};
+    myVarible =2;
+    std::cout << "Hello World! Varible: " << myVarible;
     return 0;
 }
